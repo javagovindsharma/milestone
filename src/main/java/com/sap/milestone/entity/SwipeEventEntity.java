@@ -19,7 +19,9 @@ public class SwipeEventEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private Long employeeId;
-    private LocalDateTime swipeTime;
-    private String swipeType;
-    private Long enter_exit_comes;
+    private LocalDateTime officeIn;
+    private LocalDateTime officeOut;
+    private Long stayInOffice;
+    private String availablityInOffice;
+
 }
